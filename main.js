@@ -158,9 +158,6 @@ const navigationListMenu = document.querySelector(".b-main_navigation.js-utility
 const navigationButton = document.querySelector(".menu-toggle");
 const bodyElement = document.querySelector(".js-header_fixed");
 
-console.log(navigationListMenu)
-console.log(navigationButton)
-
 navigationButton.addEventListener('click', function () {
     navigationListMenu.classList.toggle('active')
     navigationButton.classList.toggle('active')
